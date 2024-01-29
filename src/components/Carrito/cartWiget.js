@@ -1,7 +1,10 @@
+import { useContext } from 'react';
 import  carrito from '../assets/carrito.svg'
+import { CarritoContext } from '../../context.js/CarritoProvider';
 
+const CartWiget = () => {
 
-const CartWiget = ({contClicks}) => {
+    const {contClicks}=useContext(CarritoContext)
     
     return (
         <div  style={{ display: 'flex' }} >

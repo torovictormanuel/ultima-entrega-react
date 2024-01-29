@@ -6,7 +6,10 @@ import { Link } from 'react-router-dom';
 
 
 
-function NavBar({onSearch,contClicks}) {
+
+function NavBar() {
+
+
 
   return (
     <nav className="navbar is-fixed-top is-info" role="navigation" aria-label="main navigation" >
@@ -55,25 +58,16 @@ function NavBar({onSearch,contClicks}) {
         </div>
         <div className='navbar-item '>
           
-         <SearchBar1 onSearch={onSearch} />
+         <SearchBar1 />
         </div>
 
         <div className="navbar-end">
           <div className="navbar-item">
             <div className='navbar-item'>
               <Link to='/carrito'>
-              <CartWiget  contClicks={contClicks} />
+              <CartWiget  />
             </Link>
             </div>
-
-            {/* <div className="buttons">
-              <a className="button is-white">
-                <strong >Registrarse</strong>
-              </a>
-              <a className="button is-light">
-                Acceso
-              </a>
-            </div> */}
           </div>
         </div>
       </div>

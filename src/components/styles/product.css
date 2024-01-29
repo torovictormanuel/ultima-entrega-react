@@ -3,6 +3,7 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 50px;
 
 }
 
@@ -42,4 +43,8 @@ h1{
 
 .descripcion {
     text-align: center;
+}
+
+.volver{
+    margin: 50px 50px;
 }

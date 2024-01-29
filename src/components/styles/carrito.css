@@ -1,0 +1,129 @@
+.carrito-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  
+  .carrito-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .carrito-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .carrito-image {
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+    margin-right: 1rem;
+  }
+  
+  .carrito-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .carrito-title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .carrito-description {
+    margin: 0.5rem 0 1rem 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .carrito-price {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .carrito-remove-button,
+  .carrito-add-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .carrito-remove-button {
+    background-color: #3682f4;
+    color: #fff;
+  }
+  
+  .carrito-remove-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .carrito-add-button {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .carrito-add-button:hover {
+    background-color: #45a049;
+  }
+
+  .cantidad{
+    display: flex;
+    color: black;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 15px;
+
+  }
+
+  .sinProductos{
+    margin: 50px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif  ;  
+  }
+
+  .total{
+    text-align: right;
+    margin: 25px 50px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .productos{
+    margin: 30px auto;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif  ; 
+    text-align: center; 
+  }
+  .comprar{
+    margin: 30px auto ;
+    width: 80%;
+    text-align: center;
+  }
+
+  .carita{
+    width: 100px;
+    height: 110px;
+  }
+
+  .pedido{
+    width: 250px;
+  }
